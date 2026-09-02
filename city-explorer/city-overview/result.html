@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>City Results</title>
+		<link rel="stylesheet" href="./result.css" />
+		<script defer type="module" src="./result.js"></script>
+	</head>
+	<body>
+		<main class="results-container">
+			<header class="city-header">
+				<h1 id="cityName">CITY NAME</h1>
+				<p id="cityDescription">CITY DESCRIPTION</p>
+			</header>
+
+			<section class="results-grid">
+				<div class="card city-photo-card">
+					<div class="image-skeleton"></div>
+					<img id="cityImage" src="" alt="City Image" />
+					<span class="image-caption"
+						>Image search may be unreliable for lesser known cities.</span
+					>
+				</div>
+
+				<div class="card weather">
+					<h2>Weather</h2>
+					<p id="weather">Loading...</p>
+				</div>
+
+				<div class="card population">
+					<h2>Population</h2>
+					<p id="population">Loading...</p>
+				</div>
+
+				<div class="card time">
+					<h2>Current Time</h2>
+					<p id="currentTime">Loading...</p>
+				</div>
+
+				<div class="card location">
+					<h2>Location</h2>
+					<p id="coordinates">Loading...</p>
+				</div>
+
+				<div class="card country">
+					<h2>Country</h2>
+					<img
+						id="countryFlag"
+						src="https://flagcdn.com/w80/CT.png"
+						alt="Country flag"
+					/>
+				</div>
+			</section>
+		</main>
+	</body>
+</html>
